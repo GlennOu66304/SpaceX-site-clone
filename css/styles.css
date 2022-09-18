@@ -64,7 +64,6 @@ li {
 } */
 @media screen and (max-width: 960px) {
   .container {
-    background-color: lightgreen;
     margin-left:0px;
   }
 }
