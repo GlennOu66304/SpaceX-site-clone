@@ -71,7 +71,22 @@ li a:hover::after {
   transform: scalex(1);
 }
 /* <!-- section a  --> */
+section{
+  position: relative;
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
+}
+.section-a{
+  background-image: url('../imgs/section-a.webp');
+}
+.section-inner{
+  position: absolute;
+  bottom: 200px;
+  left: 150px;
+}
 /* <!-- section b  --> */
 /* <!-- section c --> */
 /* <!-- section d  --> */
