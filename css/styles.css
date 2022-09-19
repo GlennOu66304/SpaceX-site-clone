@@ -1,80 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@600&display=swap");
 
-/* CSS Layout - Horizontal & Vertical Align
-https://www.w3schools.com/css/css_align.asp
-*/
-.container {
-  border: 1px solid #e9e9e9;
-  padding: 10px;
-  width: 550px;
-  margin: auto;
-  margin-top: 70px;
-  box-shadow: 10px 10px #e9e9e9;
+body {
+  background-color: black;
+  color: white;
+  font-family: "Familjen Grotesk", sans-serif;
+  width: 100%;
+  height: 100%;
 }
-/* Specify a Color for the Shadow */
-/* https://www.w3schools.com/css/css3_shadows_box.asp */
-/* two borders */
-/* header */
 
-/* image */
-/* CSS force image resize and keep aspect ratio */
-/* https://stackoverflow.com/questions/12991351/css-force-image-resize-and-keep-aspect-ratio */
-img {
-  padding-bottom: 12px;
-  /* width: 100%;
-  height: 100%; */
-  display: block;
-  /* max-width:230px; */
-  max-height: 300px;
-  width: auto;
+/* <!-- header --> */
+.main-header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.logo {
+  /* margin-top: 70px; */
+  width: 210px;
   height: auto;
-  margin: auto;
+}
+img {
+  width: 100%;
+}
+.main-deskarea {
+  margin-right: 70px;
 }
 
-/* intro area */
-.card-container {
-  border: 1px solid #e9e9e9;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+  display: flex;
 }
-.card-info {
-  margin-left: 15px;
+
+/* li {
+  float: left;
+} */
+
+li {
+  padding-bottom: 10px;
+  position: relative;
   margin-right: 15px;
 }
-.brief {
-  font-style: italic;
-}
-/* How to create a bullet list with no bullets in HTML
-https://www.computerhope.com/issues/ch001704.htm#:~:text=Adding%20the%20%22list%2Dstyle%3A,removes%20any%20bullet%20or%20number.
-*/
-ul {
-  padding-left: 0;
-  list-style-type: none;
-}
-li {
-  margin-bottom: 10px;
-}
-.attr {
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 25px;
+
+li a {
+  color: white;
+  text-decoration: none;
 }
 
-/* mobile responsive */
-/* @media screen and (max-width: 400px) {
-  .container {
-    margin-left: 0px;
+li a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background: white;
+  transform: scalex(0);
+  transition: transform 0.6s cubic-bezier(0.19,1,0.22);
+}
+li a:hover::after {
+  transform: scalex(1);
+}
+/* <!-- section a  --> */
 
-    margin-top: 180px;
-  }
-} */
-/* @media only screen and (max-width: 960px) {
-  .container {
-    margin-left: 0px;
-  }
-} */
-
-/* you need to close the dev tool and squeeze the sscreen size to lower than max width, 
-and refresh the page to see the result
-CSS @media Rule
-https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
-How To Use CSS3 Media Queries To Create a Mobile Version of Your Website
-https://www.smashingmagazine.com/2010/07/how-to-use-css3-media-queries-to-create-a-mobile-version-of-your-website/
-*/
+/* <!-- section b  --> */
+/* <!-- section c --> */
+/* <!-- section d  --> */
+/* <!-- section e  --> */
+/* <!-- section f --> */
+/* 
+	<!-- foooter -->  */
