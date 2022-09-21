@@ -88,9 +88,46 @@ section{
   left: 150px;
 }
 /* <!-- section b  --> */
+.section-b{
+  background-image: url('../imgs/section-b.webp');
+}
+
 /* <!-- section c --> */
+.section-c{
+  background-image: url('../imgs/section-c.webp');
+}
+
 /* <!-- section d  --> */
+.section-d{
+  background-image: url('../imgs/section-d.webp');
+}
+
 /* <!-- section e  --> */
+.section-e{
+  background-image: url('../imgs/section-e.webp');
+}
+
 /* <!-- section f --> */
+.section-f{
+  background-image: url('../imgs/section-f.webp');
+}
+
 /* 
 	<!-- foooter -->  */
+/* falcon-9 page */
+.section-falcon-9{
+  background-image: url('../imgs/falcon-9.webp');
+}
+
+/* falcon-heavy */
+
+.section-falcon-heavy{
+  background-image: url('../imgs/falcon-heavy.webp');
+}
+
+/* dragon */
+
+.section-dragon{
+  background-image: url('../imgs/dragon.webp');
+}
+
